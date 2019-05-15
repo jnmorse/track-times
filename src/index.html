@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title><%= htmlWebpackPlugin.options.title %></title>
+
+  <style>
+    figure {
+      display: block;
+      width: 1280px;
+      margin: 0 auto;
+    }
+
+    figcaption {
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    .mens {
+      color: blue;
+    }
+
+    .womens {
+      color: pink;
+    }
+  </style>
+</head>
+
+<body>
+  <figure>
+    <div id="chart"></div>
+    <figcaption>
+      <span class="mens">Mens</span> vs <span class="womens">Womens</span>
+      100M Times:
+    </figcaption>
+  </figure>
+</body>
+
+</html>
